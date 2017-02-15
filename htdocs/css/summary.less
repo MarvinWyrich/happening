@@ -1,0 +1,83 @@
+/* Summary page
+----------------------------------------- */
+@import 'timeless/helpers';
+@import 'timeless/typography';
+
+@avatar-size: 60px;
+@avatar-margin-right: 15px;
+
+@avatar-size-smaller: 30px;
+
+#filter-form {
+	border: 1px solid @light-grey-border-color;
+	padding: 8px;
+	background-color: rgba(70, 123, 169, 0.06);
+}
+
+
+.event-feed {
+	.event {
+		.clear-fix;
+		margin-bottom: @line-height;
+
+		.creator-avatar {
+			display: block;
+			float: left;
+			width: @avatar-size;
+			height: @avatar-size;
+			margin-right: @avatar-margin-right;
+		}
+
+		.event-info {
+			.smaller-text;
+			margin: 0;
+			margin-left: @avatar-size + @avatar-margin-right;
+
+			.event-creator {
+				display: block;
+			}
+		}
+
+		.edit-event-button {
+			float: right;
+			display: inline-block;
+			opacity: 0.5;
+
+			&:disabled {
+				visibility: hidden;
+				cursor: unset;
+			}
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	.event.edit-mode {
+		.event-content {
+			background-color: rgba(70, 123, 169, 0.06);
+			border: 1px solid @light-grey-border-color;
+		}
+	}
+
+	.event.priority-3 {
+		.creator-avatar {
+			width: @avatar-size-smaller;
+			height: @avatar-size-smaller;
+		}
+
+		.event-info {
+			margin-left: @avatar-size-smaller + @avatar-margin-right;
+
+			.event-creator {
+				display: inline-block;
+				margin-right: 10px;
+			}
+		}
+	}
+
+	.event.irrelevant {
+		display: none;
+	}
+}

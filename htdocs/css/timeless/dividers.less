@@ -1,0 +1,23 @@
+/* Dividers
+----------------------------------------- */
+@import 'colors';
+@import 'typography';
+
+hr {
+	border: 0;
+	border-bottom: 1px solid @light-grey-border-color;
+}
+
+hr.dashed {
+	border-style: dashed;
+}
+
+/*
+ * For example add a • in your htm.
+ */
+.vertical-divider {
+	vertical-align: top;
+	padding: 0 7px;
+	color: @light-grey-text-color;
+	font-size: @smaller-font-size;
+}

@@ -1,0 +1,72 @@
+/* Forms
+----------------------------------------- */
+@import 'fonts';
+@import 'colors';
+@import 'typography';
+@import 'helpers';
+
+textarea,
+input[type=text],
+input[type=search],
+input[type=password],
+select {
+	.default-font;
+	font-size: inherit;
+	margin: 0;
+	padding: 6px 14px;
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
+	border: 1px solid @light-grey-border-color;
+	border-radius: 3px;
+	resize: none;
+	width: 100%;
+	box-sizing: border-box;
+
+	&:focus {
+		outline: none;
+		border-color: @secondary-color;
+	}
+}
+
+textarea {
+	resize: vertical;
+	min-height: 2 * @base-line-height;
+}
+
+select {
+	option {
+		padding: 0 14px;
+	}
+}
+
+label {
+	input[type=checkbox] {
+		margin: 0 8px 0 0;
+	}
+
+	input[type=checkbox],
+	.checkbox-label	{
+		display: inline;
+	}
+
+	.checkbox-label {
+		white-space: normal;
+		font-size: @base-font-size;
+	}
+}
+
+form {
+	label {
+		.smaller-text;
+		.elliptical-text;
+		display: block;
+	}
+
+	.row {
+		margin-top: @base-line-height / 2;
+		margin-bottom: @base-line-height / 2;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+/* Layout of the page
+----------------------------------------- */
+@import 'timeless/colors';
+@import 'timeless/typography';
+
+@panel-background-color: #f9f9f9;
+@max-page-width: 960px;
+
+html, body {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+}
+
+#header-content, #main {
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	max-width: @max-page-width;
+}
+
+#header {
+	width: 100%;
+	padding-top: @line-height;
+	background-color: @secondary-color;
+	color: white;
+}
+
+#header-content {
+	.header-menu {
+		margin: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			margin-bottom: @line-height;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			a {
+				display: block;
+			}
+		}
+
+		.avatar-section {
+			@media @lt-phablet {
+				float: right;
+			}
+
+			.logout-link, .avatar {
+				display: inline-block;
+			}
+
+			.logout-link {
+				margin-right: 20px;
+			}
+
+			.avatar {
+				width: 48px;
+				height: 48px;
+				vertical-align: top;
+			}
+		}
+	}
+
+	a {
+		color: white;
+
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+#main {
+	padding-bottom: 2 * @line-height;
+}

@@ -1,0 +1,51 @@
+/* Tables
+----------------------------------------- */
+@import 'colors';
+
+table {
+	box-sizing: border-box;
+}
+
+table.full-width {
+	width: 100%;
+}
+
+table.equal-cols-2 {
+	th,
+	td {
+		width: 50%;
+	}
+}
+
+table.equal-cols-3 {
+	th,
+	td {
+		width: 33.33%;
+	}
+}
+
+table.equal-cols-4 {
+	th,
+	td {
+		width: 25%;
+	}
+}
+
+th,
+td {
+	padding: 12px 16px;
+	text-align: left;
+	border-bottom: 1px solid @light-grey-border-color;
+
+	&:first-child {
+		padding-left: 0;
+	}
+
+	&:last-child {
+		padding-right: 0;
+	}
+}
+
+th {
+	font-weight: bold;
+}

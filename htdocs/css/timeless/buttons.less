@@ -1,0 +1,78 @@
+/* Buttons
+-----------------------------------------*/
+@import 'colors';
+@import 'typography';
+@import 'helpers';
+
+button,
+.button,
+input[type=submit] {
+	color: @text-color;
+	font-family: inherit;
+	font-size: @smaller-font-size;
+	line-height: @line-height;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	padding: 0 16px;
+
+	&:focus {
+		outline: none;
+	}
+
+	&::-moz-focus-inner {
+		border: 0;
+	}
+}
+
+button.primary-button,
+.button.primary-button,
+input[type=submit].primary-button {
+	background-color: @primary-button-bg-color;
+	color: white;
+
+	&:hover,
+	&:focus {
+		background-color: @primary-button-hover-bg-color;
+	}
+
+	&:active:hover {
+		background-color: @primary-button-bg-color;
+	}
+}
+
+button.secondary-button,
+.button.secondary-button {
+	background-color: @secondary-button-bg-color;
+	border-color: @light-grey-border-color;
+
+	&:hover,
+	&:focus {
+		background-color: @secondary-button-hover-bg-color;
+	}
+
+	&:active:hover {
+		background-color: @secondary-button-bg-color;
+	}
+}
+
+.button-row {
+	.clear-fix;
+	margin-top: @base-line-height;
+	margin-bottom: @base-line-height;
+
+	button,
+	.button,
+	input[type=submit] {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+/* Lists
+----------------------------------------- */
+
+ul:not(.ignore-timeless) {
+	list-style: none outside none;
+	position: relative;
+	margin-left: 20px;
+
+	li {
+		display: list-item;
+		margin-left: 15px;
+
+		&:before {
+			content: "•";
+			color: @text-color;
+			position: absolute;
+			left: 0;
+		}
+	}
+}

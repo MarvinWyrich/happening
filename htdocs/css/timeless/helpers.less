@@ -1,0 +1,58 @@
+/* Helper classes
+----------------------------------------- */
+@import 'breakpoints';
+
+.clear-fix {
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		width: 0;
+		clear: both;
+		visibility: hidden;
+		overflow: hidden;
+	}
+}
+
+.f-left {
+	float: left !important;
+}
+
+.f-left-lt-mobile {
+	@media @lt-mobile {
+		float: left !important;
+	}
+}
+
+.f-left-lt-phablet {
+	@media @lt-phablet {
+		float: left !important;
+	}
+}
+
+.f-left-lt-tablet {
+	@media @lt-tablet {
+		float: left !important;
+	}
+}
+
+.f-right {
+	float: right !important;
+}
+
+.f-right-lt-mobile {
+	@media @lt-mobile {
+		float: right !important;
+	}
+}
+
+.f-right-lt-phablet {
+	@media @lt-phablet {
+		float: right !important;
+	}
+}
+.f-right-lt-tablet {
+	@media @lt-tablet {
+		float: right !important;
+	}
+}

@@ -1,0 +1,56 @@
+/* Overrides for jquery datepicker
+----------------------------------------- */
+@import 'timeless/colors';
+@import 'timeless/typography';
+
+
+.ui-datepicker {
+	font-size: 1em !important;
+
+	* {
+		.default-font !important;
+		font-size: 1em;
+	}
+
+	table {
+		.smaller-text;
+	}
+
+	td {
+		border: 1px solid @light-grey-border-color;
+		padding: 0;
+	}
+
+	.ui-state-default,
+	.ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+		border: solid white;
+		border-width: 1px 0 0 1px;
+	}
+
+	.ui-widget-header {
+		background: @secondary-color;
+		border: none;
+	}
+
+	.ui-datepicker-prev-hover.ui-state-hover,
+	.ui-datepicker-next-hover.ui-state-hover,
+	.ui-datepicker-prev-focus.ui-state-focus,
+	.ui-datepicker-next-focus.ui-state-focus {
+		border: none;
+		background: white;
+		color: @text-color;
+
+		.ui-icon {
+			background-image: url("jquery/images/ui-icons_228ef1_256x240.png");
+		}
+	}
+
+	.ui-datepicker-month {
+		margin-right: 2px !important;
+	}
+}
+
+.ui-datepicker.ui-widget-content {
+	background: white;
+}
