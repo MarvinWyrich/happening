@@ -26,3 +26,10 @@ Then *happening* will allow others to generate a summary of the whole team's act
 Some ideas for further work on the implementation:
 * Integrate *happening* as a plugin in JIRA. Use available information about activites, such as newly created and recently closed issues, and enrich the summary with these information automatically
 * Cluster entries of different team members for the same happening
+
+
+## screenshots
+
+![Screenshot add event](http://fs5.directupload.net/images/170216/3ftzrmri.png)
+
+![Screenshot of the summary](http://fs5.directupload.net/images/170216/ly8295aa.png)
