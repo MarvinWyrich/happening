@@ -21,7 +21,7 @@ And this is where *happening* will help you.
 
 The vision is to have one single information source that sums up all the activities and events of my team for a selected time period.
 Team members track their happenings in short form, just like they would do on Twitter.
-Then *happening* will allow others to generate a summary of the whole team's activites, e.g. for the last seven days.
+Then *happening* will allow others to generate a summary of the whole team's activities, e.g. for the last seven days.
 
 Some ideas for further work on the implementation:
 * Integrate *happening* as a plugin in JIRA. Use available information about activites, such as newly created and recently closed issues, and enrich the summary with these information automatically
