@@ -7,7 +7,7 @@ It was used for evaluating the usefulness of individual activity tracking with t
 ## motivation
 You are part of an agile developement team.
 Every day, a lot of events happen and some of them are important for other team members to know.
-Especially whenever decisions were taken, new tasks emerged or unexpected incidents happend, and team members are not adequately informed it can become problematic.
+Especially whenever decisions were taken, new tasks emerged or unexpected incidents happened, and team members are not adequately informed it can become problematic.
 In other words, communication is important.
 
 Most of the everday events and activities in agile development teams are communicated in short standup meetings.
