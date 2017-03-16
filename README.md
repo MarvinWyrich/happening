@@ -14,7 +14,7 @@ Most of the everday events and activities in agile development teams are communi
 Unfortunately, these meetings are rarely documented or not documented at all.
 Furthermore not every team member can attend each meeting.
 Now imagine that you were absent for a while and you come back to your team.
-It is pretty difficult to efficiently get a complete overview of what happend in the meantime and what is still relevant to you.  
+It is pretty difficult to efficiently get a complete overview of what happened in the meantime and what is still relevant to you.  
 And this is where *happening* will help you.
 
 ## vision and outlook
