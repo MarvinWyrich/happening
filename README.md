@@ -28,8 +28,6 @@ Some ideas for further work on the implementation:
 * Cluster entries of different team members for the same happening
 
 
-## screenshots
+## demo
 
-![Screenshot add event](http://fs5.directupload.net/images/170216/3ftzrmri.png)
-
-![Screenshot of the summary](http://fs5.directupload.net/images/170216/ly8295aa.png)
+You can find a demo installation on http://marvin-wyrich.de/happening. The tool consists of two parts: a simple form for inserting individual events and a page for viewing the summary for a selected time period.
