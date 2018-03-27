@@ -4,6 +4,9 @@ Efficient tracking and summarizing of daily events and activities in agile devel
 This prototype is part of my bachelor thesis.
 It was used for evaluating the usefulness of individual activity tracking with the possibility to automatically generate a summarized representation of daily activities and events of the whole team for a selected time period.
 
+## publication
+Wyrich, M., Bogicevic, I., Wagner, S.: Improving Communication in Scrum Teams. In Proceedings of the International Conference on Product-Focused Software Process Improvement (PROFES 2017). Springer, 2017. [doi:10.1007/978-3-319-69926-4_50](https://link.springer.com/chapter/10.1007%2F978-3-319-69926-4_50)
+
 ## motivation
 You are part of an agile developement team.
 Every day, a lot of events happen and some of them are important for other team members to know.
