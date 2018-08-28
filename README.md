@@ -30,6 +30,13 @@ Some ideas for further work on the implementation:
 * Integrate *happening* as a plugin in JIRA. Use available information about activites, such as newly created and recently closed issues, and enrich the summary with these information automatically
 * Cluster entries of different team members for the same happening
 
+## installation
+
+- Clone or download the repository.
+- Install [composer](https://getcomposer.org/download/).
+- Install the dependencies of *happening* with composer.
+- Put everything on your server. We tested happening with PHP 5.6 and the specified dependency versions in [composer.json](https://github.com/MarvinWyrich/happening/blob/master/composer.json).
+- Use [sql_dump.sql](https://github.com/MarvinWyrich/happening/blob/master/sql_dump.sql) for creating the tables of the database. There is not yet an admin interface and therefore users have to be managed via the database interface.
 
 ## demo
 
