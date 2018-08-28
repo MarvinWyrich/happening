@@ -1,6 +1,6 @@
 {
     "require": {
-        "illuminate/database": "^5.2",
+        "illuminate/database": "5.2.7",
         "smarty/smarty": "~3.1"
     },
     "autoload": {
